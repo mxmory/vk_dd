@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 1em;
+  background-color: #5181b8;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  color: #fff;
+
+  img {
+    height: 50px;
+  }
+}
+
+// antd
+
+.ant-form-item {
+  display: block;
+}
+
+textarea {
+  resize: none;
+}
+
+.ant-btn-primary {
+  background-color: #5181b8;
+  border: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+  a {
+    color: #fff;
+    font-size: 2em;
+    border: 1px solid #fff;
+    padding: 1em;
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-3px);
+      color: #fff;
+    }
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}

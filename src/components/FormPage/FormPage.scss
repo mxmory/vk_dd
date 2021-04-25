@@ -1,0 +1,13 @@
+.form-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .form {
+    width: 700px;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+}

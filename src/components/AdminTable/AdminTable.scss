@@ -1,0 +1,42 @@
+.admin-table {
+  h3 {
+    color: #fff;
+  }
+
+  .search {
+    margin-bottom: 1em;
+
+    &__wrapper {
+      display: flex;
+      padding: 1em;
+      border-radius: 5px;
+      background-color: #fff;
+
+      .ant-select {
+        margin-right: 1em;
+      }
+    }
+  }
+
+  .pagination {
+    color: #fff;
+    margin-top: 1em;
+  }
+
+  .filters {
+    margin-bottom: 1em;
+
+    &__wrapper {
+      display: flex;
+      margin-left: -1em;
+    }
+
+    &__item {
+      background-color: #fff;
+      padding: 1em;
+      width: calc(50% - 1em);
+      margin-left: 1em;
+      border-radius: 5px;
+    }
+  }
+}
