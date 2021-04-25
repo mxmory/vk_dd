@@ -12,17 +12,20 @@ export const App = () => {
           alt="vezdekod x vkontakte"
         />
       </header>
-      <Router>
-        <FormPage path="task-form-10" />
-        <AdminTable path="task-admin-table-20" />
-        <Chart path="task-chart-30"/>
-      </Router>
 
       <nav>
         <Link to="task-form-10">Form</Link>
         <Link to="task-admin-table-20">Admin panel</Link>
         <Link to="task-chart-30">Chart</Link>
       </nav>
+      
+      <Router>
+        <FormPage path="task-form-10" />
+        <AdminTable path="task-admin-table-20" />
+        <Chart path="task-chart-30"/>
+      </Router>
+
+      
     </div>
   );
 };
