@@ -1,5 +1,5 @@
 import { Table, Input, Select, DatePicker } from "antd";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import moment from "moment";
 import "./AdminTable.scss";
 import { data } from '../../data';
@@ -36,8 +36,6 @@ export const AdminTable = () => {
     },
   ];
 
-  const initialPaginationSizes = [10, 20, 50];
-
   const initialSearchFields = [
     {
       value: "id",
@@ -58,10 +56,6 @@ export const AdminTable = () => {
 
   const handleSearch = (string) => {
     setSearchValue(string);
-  };
-
-  const handlePaginationSize = (value) => {
-    setPagination((prev) => ({ ...prev, pageSize: value }));
   };
 
   const handleSearchField = (value) => {

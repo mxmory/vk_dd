@@ -8,7 +8,6 @@ import {
   CartesianGrid,
   Tooltip,
   Brush,
-  ResponsiveContainer,
 } from "recharts";
 import "./Chart.scss";
 
