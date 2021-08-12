@@ -3976,13 +3976,5 @@ export const data = [
     phone: "+970 308 188 1647",
     message:
       "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
-  },
-  {
-    id: 500,
-    fio: "Wilfrid Tatlowe",
-    date: "2021-01-18",
-    phone: "+62 734 390 2457",
-    message:
-      "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
-  },
+  }
 ];
